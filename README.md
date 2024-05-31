@@ -62,5 +62,3 @@ This project involves creating a section as specified in the provided designs an
 ### Responsive Design
 
 1. Ensure the section collapses into a mobile layout under 1024px width.
-
-   - Note: The Hero section currently within the project is not mobile-friendly; this should not concern you.
