@@ -21,7 +21,7 @@ This project involves creating a section as specified in the provided designs an
 
 1. **Sections Folder**
 
-   - [ ] Place the main section in the `sections` folder.
+   - [x] Place the main section in the `sections` folder.
 
 2. **Collections Folder**
 

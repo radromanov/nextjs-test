@@ -1,18 +1,19 @@
-import { HeroVideo } from "@/collections";
+import { HeroVideo } from "./components";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-full">
+    <div className="relative flex flex-col items-center justify-center min-h-screen">
       <HeroVideo />
 
-      <div className="mt-8 w-full max-w-md p-4 bg-white bg-opacity-80 rounded-md shadow-md">
+      <div className="flex flex-col justify-center items-center">
         <div className="mb-4">
           <h2 className="text-xl font-bold">Brief</h2>
           <p className="text-gray-600">
-            Complete brief writing or simple guidance on what to include, we’ve
-            got you covered.
+            In-depth agency search covering; criteria matching, door knocking,
+            and due-diligence vetting.
           </p>
         </div>
+
         <div className="mb-4">
           <h2 className="text-xl font-bold">Search</h2>
           <p className="text-gray-600">
