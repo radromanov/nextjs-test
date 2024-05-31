@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project NextJS - Test
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project involves creating a section as specified in the provided designs and organizing the components according to the given structure and conventions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Main Section
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Section to Create:** Agency Selection
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Design References:**
 
-## Learn More
+   - Desktop: [`agencyselection.png`](https://github.com/Darkbound/NextjsTest/blob/main/resources/agencyselection.png)
+   - Mobile: [`mobileagencyselection.png`](https://github.com/Darkbound/NextjsTest/blob/main/resources/mobileagencyselection.png)
 
-To learn more about Next.js, take a look at the following resources:
+3. **Folder:** `sections`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Sections Folder**
 
-## Deploy on Vercel
+   - [ ] Place the main section in the `sections` folder.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Collections Folder**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - [ ] Create and place all collections of components in the `collections` folder.
+   - [ ] **Examples of Collections:**
+     - Forms (contains inputs, checkboxes, radio buttons, buttons)
+     - Menus
+
+3. **Components Folder**
+   - [ ] Place all base components that make up collections in the `components` folder.
+   - [ ] **Examples of Base Components:**
+     - Typography
+     - Buttons
+     - Checkboxes
+
+### Design Resources
+
+1. **Resources Folder:**
+   Contains assets and designs for desktop and mobile views.
+
+   - **Assets:** `agencyselection.png`, `mobileagencyselection.png`, `background.png`, `video.png`
+
+### Component Conventions
+
+1. **Folder Structure:**
+   Each component must have its own folder.
+
+   - **Files within Component Folder:**
+
+     - `index.js`: Exports the component.
+     - `elements.jsx`: Imports and styles all the components used to create the component.
+     - The final component should only import the components it needs from `./elements`.
+
+### Image Handling
+
+1. Use the `Image` component imported from `next/image` for all images.
+
+### Responsive Design
+
+1. Ensure the section collapses into a mobile layout under 1024px width.
+
+   - Note: The Hero section currently within the project is not mobile-friendly; this should not concern you.
