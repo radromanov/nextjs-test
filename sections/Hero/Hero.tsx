@@ -1,4 +1,4 @@
-import { HeroBackground } from "@/collections/";
+import { HeroBackground } from "@/collections";
 
 export const Hero = () => {
   return (

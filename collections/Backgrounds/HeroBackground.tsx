@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backgroundImage from "../../resources/background.png";
+import backgroundImage from "@/resources/background.png";
 
 export const HeroBackground = () => {
   return (
