@@ -1,8 +1,11 @@
 import { Icon } from "@/components/Icons";
+import { cn } from "@/lib/utils";
 
-export const ToolIcon = () => {
+interface Props extends React.SVGProps<SVGSVGElement> {}
+
+export const ToolIcon = ({ className, ...props }: Props) => {
   return (
-    <Icon>
+    <Icon className={(cn(""), className)} {...props}>
       <path
         strokeLinecap="round"
         strokeLinejoin="round"

@@ -1,4 +1,3 @@
-import React from "react";
 import { cn } from "@/lib/utils";
 
 interface Props
@@ -13,7 +12,7 @@ export const Card = ({ children, className, ...props }: Props) => {
   return (
     <section
       className={cn(
-        "group bg-neutral-100 rounded-md py-3 px-6 outline-none -outline-offset-2 hover:outline-blue-500 focus:outline-blue-500 active:outline-blue-500 cursor-pointer",
+        "flex justify-center items-center group bg-neutral-100 rounded-md py-3 px-6 outline-none -outline-offset-2 hover:outline-blue-500 focus:outline-blue-500 active:outline-blue-500 cursor-pointer",
         className
       )}
       {...props}
