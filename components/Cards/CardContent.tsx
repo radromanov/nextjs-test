@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import React from "react";
+import { Typography } from "../Typography";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -9,10 +9,10 @@ interface Props
   children: React.ReactNode;
 }
 
-export const Typography = ({ children, className, ...props }: Props) => {
+export const CardContent = ({ children, className, ...props }: Props) => {
   return (
-    <p className={cn("", className)} {...props}>
+    <Typography className={(cn(""), className)} {...props}>
       {children}
-    </p>
+    </Typography>
   );
 };

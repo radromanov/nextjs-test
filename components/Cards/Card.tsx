@@ -6,11 +6,10 @@ interface Props
     React.HTMLAttributes<HTMLElement>,
     HTMLElement
   > {
-  title: string;
   children: React.ReactNode;
 }
 
-export const Card = ({ title, children, className, ...props }: Props) => {
+export const Card = ({ children, className, ...props }: Props) => {
   return (
     <section
       className={cn(
@@ -19,12 +18,6 @@ export const Card = ({ title, children, className, ...props }: Props) => {
       )}
       {...props}
     >
-      <h3>
-        <span className="font-bold group-hover:text-blue-500 group-hover:underline">
-          {title}
-        </span>
-      </h3>
-
       {children}
     </section>
   );
