@@ -3,7 +3,7 @@ import video from "@/resources/video.png";
 
 export const HeroVideo = () => {
   return (
-    <div className="flex items-center justify-center w-full">
+    <div className="flex items-center justify-center w-full py-4">
       <Image
         src={video}
         alt="Welcome Video"

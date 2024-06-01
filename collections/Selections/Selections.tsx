@@ -3,7 +3,7 @@ import { PresentationIcon, SearchIcon, ToolIcon } from "../Icons";
 
 export const Selections = () => {
   return (
-    <div className="flex flex-col gap-6 items-start w-full pb-6">
+    <div className="flex flex-col gap-7 items-start w-full pb-6">
       <Card className="w-[92%] min-w-[265px]">
         <ToolIcon />
         <CardContent>
