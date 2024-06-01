@@ -10,7 +10,7 @@ interface Props
 
 export const Subheader = ({ children, className, ...props }: Props) => {
   return (
-    <h3 className={cn("", className)} {...props}>
+    <h3 className={cn("text-sm", className)} {...props}>
       <span>{children}</span>
     </h3>
   );

@@ -14,7 +14,7 @@ export const Icon = ({ children, className, ...props }: Props) => {
       strokeWidth={1.5}
       stroke="currentColor"
       className={cn(
-        "min-w-10 min-h-10 size-2/12 sm:max-w-12 sm:max-h-12",
+        "min-w-9 min-h-9 size-2/12 sm:max-w-12 sm:max-h-12",
         className
       )}
       {...props}

@@ -12,7 +12,7 @@ export const Card = ({ children, className, ...props }: Props) => {
   return (
     <section
       className={cn(
-        "flex justify-center items-center gap-6 group bg-neutral-100 rounded-md py-4 px-6 outline-none -outline-offset-2 hover:outline-blue-500 focus:outline-blue-500 active:outline-blue-500 cursor-pointer",
+        "flex justify-center items-center gap-6 group bg-neutral-100 rounded-md py-2 px-6 outline-none -outline-offset-2 hover:outline-blue-500 focus:outline-blue-500 active:outline-blue-500 cursor-pointer",
         className
       )}
       {...props}

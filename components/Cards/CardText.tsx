@@ -12,7 +12,7 @@ interface Props
 export const CardText = ({ children, className, ...props }: Props) => {
   return (
     <Typography
-      className={cn("text-xs sm:text-sm md:text-md", className)}
+      className={cn("text-[10px] sm:text-sm md:text-md", className)}
       {...props}
     >
       {children}
