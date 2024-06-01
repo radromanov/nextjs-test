@@ -9,7 +9,8 @@ export const HeroVideo = () => {
         alt="Welcome Video"
         placeholder="blur"
         quality={100}
-        height={400}
+        width={200}
+        height={200}
         style={{
           objectFit: "cover",
         }}

@@ -21,18 +21,19 @@ This project involves creating a section as specified in the provided designs an
 
 1. **Sections Folder**
 
-   - [x] Place the main section in the `sections` folder.
+   - Place the main section in the `sections` folder.
 
 2. **Collections Folder**
 
-   - [ ] Create and place all collections of components in the `collections` folder.
-   - [ ] **Examples of Collections:**
+   - Create and place all collections of components in the `collections` folder.
+   - **Examples of Collections:**
      - Forms (contains inputs, checkboxes, radio buttons, buttons)
      - Menus
 
 3. **Components Folder**
-   - [ ] Place all base components that make up collections in the `components` folder.
-   - [ ] **Examples of Base Components:**
+
+   - Place all base components that make up collections in the `components` folder.
+   - **Examples of Base Components:**
      - Typography
      - Buttons
      - Checkboxes
