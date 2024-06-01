@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* Header */}
 
-        <main className="w-dvw h-dvh">{children}</main>
+        <main className="px-6">{children}</main>
 
         {/* Footer */}
       </body>
