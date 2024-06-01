@@ -9,12 +9,10 @@ export const HeroVideo = () => {
         alt="Welcome Video"
         placeholder="blur"
         quality={100}
-        width={224}
-        height={224}
         style={{
           objectFit: "cover",
         }}
-        className="rounded-md"
+        className="rounded-md w-[192px] min-[414px]:w-[256px]"
       />
     </div>
   );
