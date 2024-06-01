@@ -1,18 +1,17 @@
 import { cn } from "@/lib/utils";
-import { Typography } from "../Typography";
 
 interface Props
   extends React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLParagraphElement>,
-    HTMLParagraphElement
+    React.HTMLAttributes<HTMLDivElement>,
+    HTMLDivElement
   > {
   children: React.ReactNode;
 }
 
 export const CardContent = ({ children, className, ...props }: Props) => {
   return (
-    <Typography className={(cn(""), className)} {...props}>
+    <div className={cn("", className)} {...props}>
       {children}
-    </Typography>
+    </div>
   );
 };
