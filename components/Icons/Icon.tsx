@@ -13,10 +13,7 @@ export const Icon = ({ children, className, ...props }: Props) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={cn(
-        "min-w-9 min-h-9 size-2/12 xs:max-w-10 xs:max-h-10",
-        className
-      )}
+      className={cn("min-w-8 min-h-8 size-2/12 max-h-10 max-w-10", className)}
       {...props}
     >
       {children}

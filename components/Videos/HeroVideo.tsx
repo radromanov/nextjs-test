@@ -12,7 +12,7 @@ export const HeroVideo = () => {
         style={{
           objectFit: "cover",
         }}
-        className="rounded-md w-48 mobile-md:w-52"
+        className="rounded-md w-48 mobile-md:w-52 tablet:w-56"
       />
     </div>
   );
