@@ -13,22 +13,28 @@ const config = {
   prefix: "",
   theme: {
     screens: {
-      xs: "412px",
-      // => @media (min-width: 412px) { ... }
+      "mobile-sm": "320px",
+      // => @media (min-width: 320px) { ... }
 
-      sm: "640px",
+      "mobile-md": "375px",
+      // => @media (min-width: 375px) { ... }
+
+      "mobile-lg": "425px",
+      // => @media (min-width: 425px) { ... }
+
+      "tablet-sm": "640px",
       // => @media (min-width: 640px) { ... }
 
-      md: "768px",
+      tablet: "768px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "1024px",
+      laptop: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1280px",
+      desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1536px",
+      "desktop-lg": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
     container: {

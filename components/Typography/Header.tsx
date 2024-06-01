@@ -11,7 +11,10 @@ interface Props
 export const Header = ({ children, className, ...props }: Props) => {
   return (
     <h1
-      className={cn("text-xl xs:text-2xl sm:text-3xl font-bold", className)}
+      className={cn(
+        "text-lg mobile-md:text-xl mobile-lg:text-2xl font-bold",
+        className
+      )}
       {...props}
     >
       <span>{children}</span>
