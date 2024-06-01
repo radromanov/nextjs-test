@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Subheader } from "../Typography";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -10,14 +11,14 @@ interface Props
 
 export const CardHeader = ({ children, className, ...props }: Props) => {
   return (
-    <h3
+    <Subheader
       className={cn(
         "font-bold group-hover:text-blue-500 group-hover:underline",
         className
       )}
       {...props}
     >
-      <span>{children}</span>
-    </h3>
+      {children}
+    </Subheader>
   );
 };
