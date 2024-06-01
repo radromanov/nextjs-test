@@ -9,11 +9,13 @@ interface Props
   children: React.ReactNode;
 }
 
+// @TODO Working on responsiveness for Selection Cards
+
 export const CardHeader = ({ children, className, ...props }: Props) => {
   return (
     <Subheader
       className={cn(
-        "text-sm font-bold group-hover:text-blue-500 group-hover:underline",
+        "text-sm sm:text-md md:text-lg font-bold group-hover:text-blue-500 group-hover:underline",
         className
       )}
       {...props}
