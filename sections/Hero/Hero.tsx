@@ -10,9 +10,11 @@ export const Hero = () => {
         <Subheader>Strengthen your onboarding process</Subheader>
       </div>
 
-      <HeroVideo />
+      <div className="flex flex-col laptop:flex-row">
+        <HeroVideo />
 
-      <Selections />
+        <Selections />
+      </div>
     </div>
   );
 };
