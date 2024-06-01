@@ -4,7 +4,7 @@ import { PresentationIcon, SearchIcon, ToolIcon } from "../Icons";
 export const Selections = () => {
   return (
     <div className="container flex flex-col gap-6 items-start w-full">
-      <Card className="flex w-[92%] min-w-[265px] gap-6">
+      <Card className="w-[92%] min-w-[265px]">
         <ToolIcon />
         <CardContent>
           <CardHeader>Brief</CardHeader>
@@ -16,7 +16,7 @@ export const Selections = () => {
         </CardContent>
       </Card>
 
-      <Card className="w-[96%] min-w-[280px] gap-6">
+      <Card className="w-[96%] min-w-[280px]">
         <SearchIcon />
         <CardContent>
           <CardHeader>Search</CardHeader>
@@ -28,7 +28,7 @@ export const Selections = () => {
         </CardContent>
       </Card>
 
-      <Card className="w-full min-w-[295px] gap-6">
+      <Card className="w-full min-w-[295px]">
         <PresentationIcon />
         <CardContent>
           <CardHeader>Pitch</CardHeader>

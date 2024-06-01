@@ -11,7 +11,7 @@ interface Props
 
 export const CardText = ({ children, className, ...props }: Props) => {
   return (
-    <Typography className={(cn(""), className)} {...props}>
+    <Typography className={cn("text-sm", className)} {...props}>
       {children}
     </Typography>
   );
