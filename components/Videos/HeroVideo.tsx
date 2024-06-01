@@ -12,7 +12,7 @@ export const HeroVideo = () => {
         style={{
           objectFit: "cover",
         }}
-        className="rounded-md w-[192px] min-[414px]:w-[256px]"
+        className="rounded-md w-[192px] xs:w-[256px] sm:w-[288px] md:w-[320px]"
       />
     </div>
   );

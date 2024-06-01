@@ -14,6 +14,8 @@ const config = {
   theme: {
     screens: {
       xs: "412px",
+      // => @media (min-width: 412px) { ... }
+
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
@@ -37,6 +39,9 @@ const config = {
       },
     },
     extend: {
+      fontSize: {
+        md: ["16px", "24px"],
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
