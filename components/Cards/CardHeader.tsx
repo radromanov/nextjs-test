@@ -13,7 +13,7 @@ export const CardHeader = ({ children, className, ...props }: Props) => {
   return (
     <Subheader
       className={cn(
-        "text-xs leading-4 mobile-md:text-sm mobile-lg:text-sm tablet:text-md font-bold group-hover:text-blue-500 group-hover:underline",
+        "text-xs mobile-md:text-xs mobile-lg:text-sm tablet:text-md desktop:text-2xl font-bold group-hover:text-blue-500 group-hover:underline",
         className
       )}
       {...props}
