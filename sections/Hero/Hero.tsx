@@ -10,7 +10,7 @@ export const Hero = () => {
         <Subheader>Strengthen your onboarding process</Subheader>
       </div>
 
-      <div className="flex flex-col mobile-md:px-6 laptop:flex-row laptop:container desktop:w-3/4">
+      <div className="flex flex-col mobile-md:px-6 laptop:flex-row laptop:container desktop:w-3/4 desktop-lg:w-5/6 desktop-lg:gap-6">
         <HeroVideo />
 
         <Selections />

@@ -12,7 +12,7 @@ export const Subheader = ({ children, className, ...props }: Props) => {
   return (
     <h3
       className={cn(
-        "leading-5 text-xs mobile-lg:text-sm tablet-sm:text-md laptop:text-lg desktop:text-xl",
+        "leading-5 text-xs mobile-lg:text-sm tablet-sm:text-md laptop:text-lg desktop:text-lg desktop-lg:text-2xl",
         className
       )}
       {...props}
