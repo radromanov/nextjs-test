@@ -12,7 +12,7 @@ export const Header = ({ children, className, ...props }: Props) => {
   return (
     <h1
       className={cn(
-        "text-lg mobile-md:text-xl mobile-lg:text-2xl tablet-sm:text-3xl font-bold",
+        "font-bold text-lg mobile-md:text-xl mobile-lg:text-2xl tablet-sm:text-3xl laptop:text-4xl",
         className
       )}
       {...props}

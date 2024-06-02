@@ -4,13 +4,13 @@ import { HeroVideo } from "@/components/Videos";
 
 export const Hero = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen md:gap-6 md:container">
+    <div className="relative flex flex-col items-center justify-center min-h-screen laptop:gap-16">
       <div className="flex flex-col items-center justify-center">
         <Header>Managed agency selection</Header>
         <Subheader>Strengthen your onboarding process</Subheader>
       </div>
 
-      <div className="flex flex-col laptop:flex-row">
+      <div className="flex flex-col laptop:flex-row laptop:gap-16">
         <HeroVideo />
 
         <Selections />

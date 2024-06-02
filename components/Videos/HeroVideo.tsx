@@ -3,7 +3,7 @@ import video from "@/resources/video.png";
 
 export const HeroVideo = () => {
   return (
-    <div className="flex items-center justify-center w-full py-8">
+    <div className="flex items-center justify-center w-full py-8 laptop:py-0">
       <Image
         src={video}
         alt="Welcome Video"
@@ -12,7 +12,7 @@ export const HeroVideo = () => {
         style={{
           objectFit: "cover",
         }}
-        className="rounded-md w-48 mobile-md:w-52 tablet:w-56"
+        className="rounded-md w-48 mobile-md:w-52 tablet:w-56 laptop:w-[308px]"
       />
     </div>
   );
