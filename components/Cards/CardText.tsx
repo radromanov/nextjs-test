@@ -13,7 +13,7 @@ export const CardText = ({ children, className, ...props }: Props) => {
   return (
     <Typography
       className={cn(
-        "text-xxs mobile-md:text-xxs tablet:text-sm desktop:text-lg font-medium",
+        "text-xxs mobile-md:text-xxs tablet:text-sm desktop:text-md font-medium",
         className
       )}
       {...props}
