@@ -46,6 +46,7 @@ const config = {
     },
     extend: {
       fontSize: {
+        xxs: ["10px", "12px"],
         md: ["16px", "24px"],
       },
       fontFamily: {

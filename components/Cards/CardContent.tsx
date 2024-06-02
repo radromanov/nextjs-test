@@ -10,7 +10,7 @@ interface Props
 
 export const CardContent = ({ children, className, ...props }: Props) => {
   return (
-    <div className={cn("", className)} {...props}>
+    <div className={cn("flex flex-col", className)} {...props}>
       {children}
     </div>
   );
