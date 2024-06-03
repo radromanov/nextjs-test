@@ -1,17 +1,7 @@
-import { cn } from "@/lib/utils";
-
-interface Props
-  extends React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
-  > {
+interface Props {
   children: React.ReactNode;
 }
 
-export const CardContent = ({ children, className, ...props }: Props) => {
-  return (
-    <div className={cn("flex flex-col", className)} {...props}>
-      {children}
-    </div>
-  );
+export const CardContent = ({ children }: Props) => {
+  return <div className={"flex flex-col"}>{children}</div>;
 };

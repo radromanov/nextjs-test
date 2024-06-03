@@ -14,7 +14,14 @@ export const Icon = ({ children, className, ...props }: Props) => {
       strokeWidth={1.5}
       stroke="currentColor"
       className={cn(
-        "w-16 mobile-md:w-20 mobile-lg:w-20 mobile-lg:max-w-10 tablet-sm:max-w-full tablet-sm:w-16 laptop:w-24 laptop:max-w-11 desktop:max-w-full desktop:w-24 desktop-md:w-20 desktop-4k:w-36",
+        `w-16 
+        mobile-md:w-20 
+        mobile-lg:w-20 mobile-lg:max-w-10
+        tablet-sm:max-w-full tablet-sm:w-16 
+        laptop:w-20 laptop:max-w-11 
+        desktop:w-24 desktop:max-w-full
+        desktop-md:w-28 
+        desktop-4k:w-36`,
         className
       )}
       {...props}
