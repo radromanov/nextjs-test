@@ -63,3 +63,67 @@ This project involves creating a section as specified in the provided designs an
 ### Responsive Design
 
 1. Ensure the section collapses into a mobile layout under 1024px width.
+
+### Usage
+
+To run this application locally, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/radromanov/nextjs-test
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd nextjs-test
+   ```
+
+3. **Install dependencies:**
+   Make sure you have [Node.js](https://nodejs.org/en/download/package-manager) installed on your machine. Then run:
+   ```bash
+   npm install
+   ```
+   I've used [pnpm](https://pnpm.io/) for this project but feel free to your package manager of choice.
+4. **Run the Development Server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   The project should now be running on http://localhost:3000.
+
+5. **Build and Start the Project:**
+
+   ```bash
+   npm run build
+   npm start
+   ```
+
+6. **Lint the Code:**
+   ```bash
+   npm run lint
+   ```
+
+### Dependencies
+
+- class-variance-authority: ^0.7.0
+- clsx: ^2.1.1
+- lucide-react: ^0.381.0
+- next: 14.2.3
+- react: ^18
+- react-dom: ^18
+- tailwind-merge: ^2.3.0
+- tailwindcss-animate: ^1.0.7
+
+### Dev Dependencies
+
+- @types/node: ^20
+- @types/react: ^18
+- @types/react-dom: ^18
+- eslint: ^8
+- eslint-config-next: 14.2.3
+- postcss: ^8
+- tailwindcss: ^3.4.1
+- typescript: ^5
