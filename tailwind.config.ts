@@ -35,6 +35,9 @@ const config = {
       desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
 
+      "desktop-sm": "1440px",
+      // => @media (min-width: 1280px) { ... }
+
       "desktop-md": "1536px",
       // => @media (min-width: 1536px) { ... }
 

@@ -17,8 +17,9 @@ export const Card = ({ children, className, ...props }: Props) => {
         mobile-lg:px-6 mobile-lg:gap-6 
         tablet:py-5 tablet:px-8 tablet:gap-8
         laptop:py-5 laptop:px-8 laptop:gap-8 
-        desktop:px-10 desktop:gap-10 
-        desktop-md:py-8 desktop-md:pl-12 desktop-md:pr-24 desktop-md:gap-12
+        desktop:py-5 desktop:px-10 desktop:gap-10 
+        desktop-sm:py-6
+        desktop-md:py-6 desktop-md:pl-12 desktop-md:pr-24 desktop-md:gap-12
         desktop-4k:py-12 desktop-4k:px-16 desktop-4k:gap-16`,
         className
       )}

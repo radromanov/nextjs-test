@@ -18,7 +18,8 @@ export const HeroVideo = () => {
         tablet:w-56 
         laptop:w-[308px]
         desktop:w-[288px]
-        desktop-md:w-[400px]
+        desktop-sm:w-[352px]
+        desktop-md:w-[364px]
         desktop-4k:w-[512px]`}
       />
     </div>

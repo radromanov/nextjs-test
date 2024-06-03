@@ -17,9 +17,11 @@ export const Icon = ({ children, className, ...props }: Props) => {
         `w-16 
         mobile-md:w-20 
         mobile-lg:w-20 mobile-lg:max-w-10
-        tablet-sm:max-w-full tablet-sm:w-16 
+        tablet-sm:w-12 tablet-sm:max-w-full
+        tablet:w-16
         laptop:w-20 laptop:max-w-11 
         desktop:w-24 desktop:max-w-full
+        desktop-sm:w-28
         desktop-md:w-28 
         desktop-4k:w-36`,
         className
