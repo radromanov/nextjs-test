@@ -39,6 +39,9 @@ const config = {
 
       "desktop-lg": "1920px",
       // => @media (min-width: 1536px) { ... }
+
+      "desktop-4k": "2560px",
+      // => @media (min-width: 1536px) { ... }
     },
     container: {
       center: true,

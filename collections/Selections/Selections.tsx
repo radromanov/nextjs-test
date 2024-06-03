@@ -3,7 +3,7 @@ import { PresentationIcon, SearchIcon, ToolIcon } from "../Icons";
 
 export const Selections = () => {
   return (
-    <div className="flex flex-col gap-7 items-start w-full pb-6 tablet-sm:max-w-[640px] tablet-sm:container laptop:p-0 laptop:justify-center laptop:gap-9 desktop-md:flex-grow desktop-md:max-w-full desktop-md:w-screen ">
+    <div className="flex flex-col gap-7 items-start w-full pb-6 tablet-sm:max-w-[640px] tablet-sm:container laptop:p-0 laptop:justify-center laptop:gap-9 desktop-md:flex-grow desktop-md:max-w-full desktop-md:w-screen desktop-4k:gap-16">
       <Card className="mobile-md:w-[92%]">
         <ToolIcon />
         <CardContent>

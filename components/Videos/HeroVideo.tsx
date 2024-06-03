@@ -12,7 +12,7 @@ export const HeroVideo = () => {
         style={{
           objectFit: "cover",
         }}
-        className="rounded-md w-52 mobile-md:w-52 tablet:w-56 laptop:w-[308px] desktop:w-[308px] desktop-md:w-[400px]"
+        className="cursor-pointer rounded-md w-52 mobile-md:w-52 tablet:w-56 laptop:w-[308px] desktop:w-[308px] desktop-md:w-[400px] desktop-4k:w-[512px]"
       />
     </div>
   );
