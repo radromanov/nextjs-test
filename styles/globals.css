@@ -79,32 +79,53 @@
   @apply bg-no-repeat;
   background-image: url("../resources/background.png");
   background-size: 664px;
-  background-position: -50px 280px;
+  background-position: -48px 280px;
 }
 
 @media (min-width: 320px) {
   .custom-background {
-    background-position: -50px 132px;
+    background-position: -48px 132px;
   }
 }
 
 @media (min-width: 768px) {
   .custom-background {
     background-size: 864px;
-    background-position: 32px 132px;
+    background-position: 0px 132px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .custom-background {
     background-size: 864px;
-    background-position: -50px 280px;
+    background-position: -48px 280px;
   }
 }
 
 @media (min-width: 1280px) {
   .custom-background {
-    background-size: 960px;
-    background-position: 64px 280px;
+    background-size: 1024px;
+    background-position: 32px 280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .custom-background {
+    background-size: 1024px;
+    background-position: -32px 348px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .custom-background {
+    background-size: 1280px;
+    background-position: 12px 280px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .custom-background {
+    background-size: 1680px;
+    background-position: 72px 480px;
   }
 }
