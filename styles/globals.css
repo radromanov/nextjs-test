@@ -72,9 +72,39 @@
   }
   body {
     @apply bg-background text-foreground min-h-screen;
-    background-image: url("../resources/background.png");
-    background-size: 700px;
-    background-position: -50px 150px;
-    background-repeat: no-repeat;
+  }
+}
+
+.custom-background {
+  @apply bg-no-repeat;
+  background-image: url("../resources/background.png");
+  background-size: 664px;
+  background-position: -50px 280px;
+}
+
+@media (min-width: 320px) {
+  .custom-background {
+    background-position: -50px 132px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-background {
+    background-size: 864px;
+    background-position: 32px 132px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-background {
+    background-size: 864px;
+    background-position: -50px 280px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-background {
+    background-size: 960px;
+    background-position: 64px 280px;
   }
 }
