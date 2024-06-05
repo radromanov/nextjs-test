@@ -7,7 +7,7 @@ interface Props {
 export const CardHeader = ({ children }: Props) => {
   return (
     <Subheader
-      className={`group-hover:text-blue-500 group-hover:underline font-bold 
+      className={`group-hover:text-blue-500 group-hover:underline font-bold
         text-xs leading-5
         mobile-md:leading-6
         mobile-lg:text-sm

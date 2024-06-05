@@ -3,7 +3,10 @@ import video from "@/resources/video.png";
 
 export const HeroVideo = () => {
   return (
-    <div className="flex items-center justify-center w-full py-8 laptop:py-0">
+    <div
+      className="flex items-center justify-center min-w-fit rounded-md py-8 laptop:py-0 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-blue-400"
+      tabIndex={1}
+    >
       <Image
         src={video}
         alt="Welcome Video"
