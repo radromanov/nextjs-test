@@ -19,7 +19,7 @@ export const Card = ({ children, className, ...props }: Props) => {
         laptop:py-5 laptop:px-8 laptop:gap-8 
         desktop:py-5 desktop:px-10 desktop:gap-10 
         desktop-sm:py-6
-        desktop-md:py-6 desktop-md:pl-12 desktop-md:pr-24 desktop-md:gap-12
+        desktop-md:py-5 desktop-md:px-12 desktop-md:gap-12
         desktop-4k:py-12 desktop-4k:px-16 desktop-4k:gap-16`,
         className
       )}

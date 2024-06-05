@@ -13,7 +13,7 @@ export const CardHeader = ({ children }: Props) => {
         mobile-lg:text-sm
         tablet:text-md
         desktop-sm:text-xl desktop-sm:leading-8
-        desktop-md:text-xl desktop-md:leading-8
+        desktop-md:text-xl desktop-md:leading-6
         desktop-4k:text-3xl desktop-4k:leading-10`}
     >
       {children}
