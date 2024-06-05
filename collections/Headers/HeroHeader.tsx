@@ -13,7 +13,7 @@ export const HeroHeader = () => {
         laptop:text-md
         desktop:text-md
         desktop-md:text-lg
-        desktop-lg:text-lg
+        desktop-lg:text-xl
         desktop-4k:text-3xl desktop-4k:leading-[56px]
       `}
       >

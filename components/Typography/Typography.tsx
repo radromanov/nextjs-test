@@ -18,8 +18,9 @@ export const Typography = ({ children, className, ...props }: Props) => {
         mobile-lg:text-xs 
         tablet:text-xs 
         desktop:text-xs
-        desktop-sm:text-md
+        desktop-sm:text-sm
         desktop-md:text-md
+        desktop-lg:text-lg
         desktop-4k:text-2xl`,
         className
       )}
